@@ -3,4 +3,5 @@
   - Busca binária.
   - Fibonacci.
   - Gerador e validador de CPF (Matematicamente).
-  - Calcular rede ipv4
+  - Calcular rede IPV4.
+  - Validador de CPNJ (Matematicamente).
