@@ -26,7 +26,6 @@ def generateCpf() -> str:
 
 
 def validateCpf(cpf: str) -> bool:
-
     if type(cpf) != str:
         raise TypeError('this is not string')
 
@@ -40,7 +39,7 @@ def validateCpf(cpf: str) -> bool:
         cpf = cpf.replace('.', '').replace('-', '')
 
     if len(cpf) != 11:
-        raise ValueError('cpf has less than 11 numbers')
+        raise ValueError('there are not 11 numbers in the cpf')
 
     newCpf = cpf[:-2]
 
